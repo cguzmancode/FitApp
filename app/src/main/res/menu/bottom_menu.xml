@@ -12,9 +12,8 @@
         android:icon="@drawable/workout_icon"/>
 
     <item
-        android:id="@+id/fab"
-        android:title=""
-        android:enabled="false"/>
+
+        android:title="" />
 
     <item
         android:id="@+id/settings"
