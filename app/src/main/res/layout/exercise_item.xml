@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,7 +12,7 @@
     android:orientation="horizontal">
 
     <TextView
-        android:id="@+id/exercise_name"
+        android:id="@+id/exerciseName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -21,17 +22,17 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/numbers_set"
+        android:id="@+id/exerciseSets"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/exercise_name"
+        android:layout_below="@id/exerciseName"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
         android:text="Series"
         android:textSize="10sp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/deleteExerciseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
