@@ -9,7 +9,7 @@
     <item
         android:id="@+id/workout"
         android:title="Workout"
-        android:icon="@drawable/workout_icon"/>
+        android:icon="@drawable/dumbbell_icon"/>
 
     <item
 
